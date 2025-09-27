@@ -532,9 +532,9 @@
         <div class="footer-content">
             <p>© 2025 SushiCom. Все права защищены.</p>
             <div class="social-links">
-                <a href="#" class="social-link">f</a>
-                <a href="#" class="social-link">t</a>
-                <a href="#" class="social-link">i</a>
+                <a href="#" class="social-link">F</a>
+                <a href="#" class="social-link">T</a>
+                <a href="#" class="social-link">I</a>
             </div>
         </div>
     </footer>

@@ -213,7 +213,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(45deg, #1a1a2e, #16213e);
         }
         
         .sushi-content {
@@ -247,10 +246,8 @@
             position: relative;
             cursor: pointer;
             transition: transform 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
+            background-size: cover;
+            background-position: center;
         }
         
         .gallery-item:hover {
@@ -444,7 +441,7 @@
                 <p>Сегодня суши — это всемирно признанное искусство, сочетающее в себе свежесть ингредиентов, мастерство приготовления и эстетическое наслаждение.</p>
             </div>
             <div class="history-image">
-                <div style="color: #64ffda; font-size: 5rem;">🍣</div>
+                <img src="https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/maka_sushi.jpg.jpg" alt="История суши" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
         </div>
     </section>
@@ -454,8 +451,7 @@
         <div class="sushi-types">
             <!-- Нигири -->
             <div class="sushi-card">
-                <div class="sushi-image">
-                    <div style="color: #64ffda; font-size: 4rem;">🍙</div>
+                <div class="sushi-image" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/nigiri.jpg.jpg')">
                 </div>
                 <div class="sushi-content">
                     <h3 class="sushi-title">Нигири</h3>
@@ -465,8 +461,7 @@
             
             <!-- Маки -->
             <div class="sushi-card">
-                <div class="sushi-image">
-                    <div style="color: #64ffda; font-size: 4rem;">🍥</div>
+                <div class="sushi-image" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/maka_sushi.jpg.jpg')">
                 </div>
                 <div class="sushi-content">
                     <h3 class="sushi-title">Маки</h3>
@@ -476,8 +471,7 @@
             
             <!-- Сашими -->
             <div class="sushi-card">
-                <div class="sushi-image">
-                    <div style="color: #64ffda; font-size: 4rem;">🐟</div>
+                <div class="sushi-image" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/sashimi.jpg.jpg')">
                 </div>
                 <div class="sushi-content">
                     <h3 class="sushi-title">Сашими</h3>
@@ -490,31 +484,30 @@
     <section id="gallery">
         <h2 class="section-title">Галерея</h2>
         <div class="gallery">
-            <div class="gallery-item" style="background: linear-gradient(45deg, #1abc9c, #3498db);">🍣</div>
-            <div class="gallery-item" style="background: linear-gradient(45deg, #e74c3c, #f39c12);">🍙</div>
-            <div class="gallery-item" style="background: linear-gradient(45deg, #9b59b6, #34495e);">🍥</div>
-            <div class="gallery-item" style="background: linear-gradient(45deg, #1abc9c, #f39c12);">🐟</div>
-            <div class="gallery-item" style="background: linear-gradient(45deg, #34495e, #e74c3c);">🍱</div>
-            <div class="gallery-item" style="background: linear-gradient(45deg, #d35400, #8e44ad);">🥢</div>
+            <div class="gallery-item" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/nigiri.jpg.jpg')"></div>
+            <div class="gallery-item" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/maka_sushi.jpg.jpg')"></div>
+            <div class="gallery-item" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/nigiri.jpg.jpg')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/zapech.jpg.jpg')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/filla.jpg.jpg')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/naga.jpg.jpg')"></div>
         </div>
     </section>
 
-       <section id="contacts">
+    <section id="contacts">
         <h2 class="section-title">Контакты</h2>
         <div class="history-content">
             <div class="history-text">
                 <p>Мы всегда рады видеть вас в нашем ресторане и готовы ответить на все ваши вопросы.</p>
                 <p><strong>Адрес:</strong> Tokyo, street 15, restaurant SushiCom</p>
                 <p><strong>Часы работы:</strong> ежедневно с 11:00 до 23:00</p>
-      </div>
-                </div>
                 <div class="contact-item">
-                    <div class="contact-icon">✉️</div>
+                    <div class="contact-icon">@</div>
                     <div>
                         <h3>Email</h3>
                         <p>sushiCom15tokio@gmail.com</p>
                     </div>
-                    
+                </div>
+            </div>
             <form class="contact-form">
                 <div class="form-group">
                     <label for="name">Имя</label>
@@ -532,15 +525,19 @@
                 </div>
                 <button type="submit" class="submit-btn">Отправить</button>
             </form>
-  <footer>
+        </div>
+    </section>
+
+    <footer>
         <div class="footer-content">
             <p>© 2025 SushiCom. Все права защищены.</p>
             <div class="social-links">
-                <a href="#" class="social-link">📘</a>
-                <a href="#" class="social-link">📷</a>
-                <a href="#" class="social-link">🐦</a>
+                <a href="#" class="social-link">f</a>
+                <a href="#" class="social-link">t</a>
+                <a href="#" class="social-link">i</a>
             </div>
         </div>
+    </footer>
 
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {

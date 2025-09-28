@@ -498,13 +498,13 @@
         <div class="history-content">
             <div class="history-text">
                 <p>Мы всегда рады видеть вас в нашем ресторане и готовы ответить на все ваши вопросы.</p>
-                <p><strong>Адрес:</strong> Tokyo, street 15, restaurant SushiCom</p>
+                <p><strong>Адрес:</strong> Tokyo, street 18, restaurant SushiCom</p>
                 <p><strong>Часы работы:</strong> ежедневно с 11:00 до 23:00</p>
                 <div class="contact-item">
                     <div class="contact-icon">@</div>
                     <div>
                         <h3>Email</h3>
-                        <p>sushiCom15tokio@gmail.com</p>
+                        <p>sushiCom18@gmail.com</p>
                     </div>
                 </div>
             </div>

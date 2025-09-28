@@ -441,7 +441,7 @@
                 <p>Сегодня суши — это всемирно признанное искусство, сочетающее в себе свежесть ингредиентов, мастерство приготовления и эстетическое наслаждение.</p>
             </div>
             <div class="history-image">
-                <img src="https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/maka_sushi.jpg.jpg" alt="История суши" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="https://github.com/glitterinzem-star/sushiCom/blob/f149e77d469f59a797f832e973943c53fa7acf09/maka_sushi.jpg.jpg?raw=true" alt="История суши" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
         </div>
     </section>
@@ -449,19 +449,9 @@
     <section id="types">
         <h2 class="section-title">Виды Суши</h2>
         <div class="sushi-types">
-            <!-- Нигири -->
-            <div class="sushi-card">
-                <div class="sushi-image" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/nigiri.jpg.jpg')">
-                </div>
-                <div class="sushi-content">
-                    <h3 class="sushi-title">Нигири</h3>
-                    <p class="sushi-description">Классические суши, состоящие из овальной рисовой основы и кусочка рыбы или морепродуктов сверху.</p>
-                </div>
-            </div>
-            
             <!-- Маки -->
             <div class="sushi-card">
-                <div class="sushi-image" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/maka_sushi.jpg.jpg')">
+                <div class="sushi-image" style="background-image: url('https://github.com/glitterinzem-star/sushiCom/blob/f149e77d469f59a797f832e973943c53fa7acf09/maka_sushi.jpg.jpg?raw=true')">
                 </div>
                 <div class="sushi-content">
                     <h3 class="sushi-title">Маки</h3>
@@ -471,11 +461,21 @@
             
             <!-- Сашими -->
             <div class="sushi-card">
-                <div class="sushi-image" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/sashimi.jpg.jpg')">
+                <div class="sushi-image" style="background-image: url('https://github.com/glitterinzem-star/sushiCom/blob/f149e77d469f59a797f832e973943c53fa7acf09/sashimi.jpg.jpg?raw=true')">
                 </div>
                 <div class="sushi-content">
                     <h3 class="sushi-title">Сашими</h3>
                     <p class="sushi-description">Тонко нарезанные ломтики свежей рыбы, подающиеся без риса. Идеально подходят для ценителей чистого вкуса.</p>
+                </div>
+            </div>
+            
+            <!-- Нигири -->
+            <div class="sushi-card">
+                <div class="sushi-image" style="background-image: url('https://github.com/glitterinzem-star/sushiCom/blob/f149e77d469f59a797f832e973943c53fa7acf09/nigiri.jpg.jpg?raw=true')">
+                </div>
+                <div class="sushi-content">
+                    <h3 class="sushi-title">Нигири</h3>
+                    <p class="sushi-description">Классические суши, состоящие из овальной рисовой основы и кусочка рыбы или морепродуктов сверху.</p>
                 </div>
             </div>
         </div>
@@ -484,12 +484,12 @@
     <section id="gallery">
         <h2 class="section-title">Галерея</h2>
         <div class="gallery">
-            <div class="gallery-item" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/nigiri.jpg.jpg')"></div>
-            <div class="gallery-item" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/maka_sushi.jpg.jpg')"></div>
-            <div class="gallery-item" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/nigiri.jpg.jpg')"></div>
-            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/zapech.jpg.jpg')"></div>
-            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/filla.jpg.jpg')"></div>
-            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/naga.jpg.jpg')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/sushiCom/blob/f149e77d469f59a797f832e973943c53fa7acf09/maka_sushi.jpg.jpg?raw=true')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/sushiCom/blob/f149e77d469f59a797f832e973943c53fa7acf09/sashimi.jpg.jpg?raw=true')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/sushiCom/blob/f149e77d469f59a797f832e973943c53fa7acf09/nigiri.jpg.jpg?raw=true')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/sushiCom/blob/f149e77d469f59a797f832e973943c53fa7acf09/zapech.jpg.jpg?raw=true')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/sushiCom/blob/f149e77d469f59a797f832e973943c53fa7acf09/naga.jpg.jpg?raw=true')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/sushiCom/blob/f149e77d469f59a797f832e973943c53fa7acf09/filla.jpg.jpg?raw=true')"></div>
         </div>
     </section>
 
@@ -498,7 +498,7 @@
         <div class="history-content">
             <div class="history-text">
                 <p>Мы всегда рады видеть вас в нашем ресторане и готовы ответить на все ваши вопросы.</p>
-                <p><strong>Адрес:</strong> Tokyo, street 18, restaurant SushiCom</p>
+                <p><strong>Адрес:</strong> Tokyo, street 15, restaurant SushiCom</p>
                 <p><strong>Часы работы:</strong> ежедневно с 11:00 до 23:00</p>
                 <div class="contact-item">
                     <div class="contact-icon">@</div>
@@ -549,3 +549,5 @@
             });
         });
     </script>
+</body>
+</html>

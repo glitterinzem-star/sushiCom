@@ -439,7 +439,7 @@
                 <p>Сегодня суши — это всемирно признанное искусство, сочетающее в себе свежесть ингредиентов, мастерство приготовления и эстетическое наслаждение.</p>
             </div>
             <div class="history-image">
-                <img src="https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/maka_sushi.jpg.jpg" alt="История суши" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="https://github.com/glitterinzem-star/sushiCom/blob/98f4c69274aeb55ffa710cd7103a0da884c38e29/maka_sushi.jpg.jpg" alt="История суши" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
         </div>
     </section>

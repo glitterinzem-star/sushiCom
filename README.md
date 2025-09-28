@@ -284,38 +284,53 @@
             color: #64ffda;
         }
         
-        .email-plate {
-            background: rgba(23, 42, 69, 0.7);
-            border-radius: 10px;
-            padding: 40px;
-            text-align: center;
-            border: 1px solid #233554;
+        .contact-form {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 300px;
+            gap: 20px;
         }
         
-        .email-title {
-            font-size: 1.8rem;
-            color: #64ffda;
-            margin-bottom: 20px;
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
         }
         
-        .email-address {
-            font-size: 1.5rem;
+        .form-group label {
             color: #ccd6f6;
-            background: rgba(100, 255, 218, 0.1);
-            padding: 15px 30px;
-            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+        
+        .form-group input, 
+        .form-group textarea {
+            padding: 12px;
+            background: rgba(23, 42, 69, 0.7);
+            border: 1px solid #233554;
+            border-radius: 4px;
+            color: #ccd6f6;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-group input:focus, 
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #64ffda;
+        }
+        
+        .submit-btn {
+            padding: 15px;
+            background: transparent;
+            color: #64ffda;
             border: 1px solid #64ffda;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
             transition: all 0.3s ease;
         }
         
-        .email-address:hover {
-            background: rgba(100, 255, 218, 0.2);
-            transform: translateY(-3px);
+        .submit-btn:hover {
+            background: rgba(100, 255, 218, 0.1);
         }
         
         footer {
@@ -398,19 +413,6 @@
                 flex-direction: column;
                 gap: 20px;
             }
-            
-            .email-plate {
-                height: 250px;
-                padding: 20px;
-            }
-            
-            .email-title {
-                font-size: 1.5rem;
-            }
-            
-            .email-address {
-                font-size: 1.2rem;
-            }
         }
     </style>
 </head>
@@ -469,8 +471,7 @@
             
             <!-- Сашими -->
             <div class="sushi-card">
-                <div class="sushi-image" style="background: linear-gradient(45deg, #1a1a2e, #16213e); display: flex; align-items: center; justify-content: center;">
-                    <div style="color: #64ffda; font-size: 4rem;">??</div>
+                <div class="sushi-image" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/sashimi.jpg.jpg')">
                 </div>
                 <div class="sushi-content">
                     <h3 class="sushi-title">Сашими</h3>
@@ -485,10 +486,10 @@
         <div class="gallery">
             <div class="gallery-item" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/nigiri.jpg.jpg')"></div>
             <div class="gallery-item" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/maka_sushi.jpg.jpg')"></div>
-            <div class="gallery-item" style="background: linear-gradient(45deg, #9b59b6, #34495e); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">3</div>
-            <div class="gallery-item" style="background: linear-gradient(45deg, #1abc9c, #f39c12); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">4</div>
-            <div class="gallery-item" style="background: linear-gradient(45deg, #34495e, #e74c3c); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">5</div>
-            <div class="gallery-item" style="background: linear-gradient(45deg, #d35400, #8e44ad); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">6</div>
+            <div class="gallery-item" style="background-image: url('https://raw.githubusercontent.com/glitterinzem-star/test/f6b19559fb97180f06d1f1e4c0b8eb13634891a4/nigiri.jpg.jpg')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/zapech.jpg.jpg')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/filla.jpg.jpg')"></div>
+            <div class="gallery-item" style="background-image: url('https://github.com/glitterinzem-star/test/raw/1b05b4cb47eee82e756b69369132f5bf36fa444b/naga.jpg.jpg')"></div>
         </div>
     </section>
 
@@ -503,14 +504,27 @@
                     <div class="contact-icon">@</div>
                     <div>
                         <h3>Email</h3>
-                        <p>sushiCom18@gmail.com</p>
+                        <p>sushiCom15tokio@gmail.com</p>
                     </div>
                 </div>
             </div>
-            <div class="email-plate">
-                <h3 class="email-title">Пишите нам на почту</h3>
-                <div class="email-address">sushiCom18@gmail.com</div>
-            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Отправить</button>
+            </form>
         </div>
     </section>
 
@@ -518,9 +532,9 @@
         <div class="footer-content">
             <p>© 2025 SushiCom. Все права защищены.</p>
             <div class="social-links">
-                <a href="#" class="social-link">f</a>
-                <a href="#" class="social-link">t</a>
-                <a href="#" class="social-link">i</a>
+                <a href="#" class="social-link">F</a>
+                <a href="#" class="social-link">T</a>
+                <a href="#" class="social-link">I</a>
             </div>
         </div>
     </footer>
@@ -535,5 +549,3 @@
             });
         });
     </script>
-</body>
-</html>
